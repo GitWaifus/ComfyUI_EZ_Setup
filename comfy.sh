@@ -34,11 +34,11 @@ pip install -r requirements.txt || { echo 'Failed to install requirements.'; exi
 
 # Ensure setup.sh is executable and exists
 if [ -f "/workspace/ComfyUI_EZ_Setup/setup.sh" ]; then
-    chmod +x /workspace/setup.sh
+    chmod +x /workspace/ComfyUI_EZ_Setup/setup.sh
 
     # Execute setup.sh script
-    /workspace/setup.sh || { echo 'setup.sh failed'; exit 1; }
+    /workspace/ComfyUI_EZ_Setup/setup.sh || { echo 'setup.sh failed'; exit 1; }
 else
-    echo "setup.sh does not exist in /workspace."
+    echo "setup.sh does not exist in /workspace/ComfyUI_EZ_Setup"
     exit 1
 fi
