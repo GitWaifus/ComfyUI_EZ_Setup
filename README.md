@@ -1,23 +1,50 @@
-# ComfyUI_EZ_Setup 🚀
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComfyUI_EZ_Setup</title>
+</head>
+<body>
 
-AKA THE ONE CLICK WONDER ✨  
-AKA THE NODE DEMON 😈  
-AKA THE NODE WHISPERER 🤫
+<h1 style="text-align: center; font-size: 36px; color: #ff00ff;">ComfyUI_EZ_Setup</h1>
 
-FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆  
-UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
+<p style="text-align: center; font-size: 20px;">✨ AKA THE ONE CLICK WONDER ✨<br>😈 AKA THE NODE DEMON 😈<br>🤫 AKA THE NODE WHISPERER 🤫</p>
 
-<div style="display: flex; justify-content: start; align-items: center;">
+<p style="text-align: center; font-size: 20px;">🏆 FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆<br>🌪️ UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️</p>
+
+</body>
+</html>
+
+
+<marquee style="font-size: 14px; text-align: center; color: #ff00ff;">
+   ✧･ﾟ: *✧･ﾟ♡*(ᵘʷᵘ)*♡･ﾟ✧*:･ﾟ✧ (ᵘʷᵘ) NODE CODE (ᵘʷᵘ) NUDE GIGABOOB (ᵘʷᵘ) EAT SLEEP WAIFU (ᵘʷᵘ) EAT SLEEP WAIFU (ᵘʷᵘ) ✧･ﾟ: *✧･ﾟ♡*(ᵘʷᵘ)*♡･ﾟ✧*:･ﾟ✧
+</marquee>
+
+
+
+
+</body>
+</html>
+
+
+<div style="display: flex; justify-content: center; align-items: center;">
     <img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="265" height="440"/>
-    <img src="./assets/gif6.gif" width="400" height="440"/>
+    <img src="./assets/gif6.gif" width="440" height="440"/>
 </div>
 
+<div style="height: 20px;"></div>
+<p style="font-size: 12.4px;">GIGABOOBS (noun): Pronunciation: /ˈɡɪɡəˌbuːbz/ Definition: A humorous and exaggerated term used to describe a unit of digital storage capacity equivalent to one billion (1,000,000,000) boobs, typically used to measure the size of digital files or data.</p>
 
-EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄
+<blockquote><p style="font-size: 13px;">"Gigaboobs are like the mammoth mammaries of the digital world, storing vast amounts of data with each bounce."</p></blockquote>
 
-## 😻 UWU ITS THE INSTALLATION GUIDE UWU 😻
+<div style="height: 20px;"></div>
 
-DEFAULT INSTALLATION GUIDE - 90GB DOWNLOAD (GIGABOOBS)
+
+<h1 align="center" style="font-size: 34px;">😻 UWU ITS THE INSTALLATION GUIDE UWU 😻</h1>
+
+
+## DEFAULT INSTALLATION GUIDE - 90GB DOWNLOAD (GIGABOOBS)
 
 ### STEP 1:
 
@@ -41,11 +68,14 @@ source /workspace/ComfyUI/venv/bin/activate
 python3 main.py --listen 0.0.0.0 --port 3000
 ```
 
-<img src="./assets/gif5.gif" width="444" height="440"/>
+<div style="display: flex; justify-content: start; align-items: center;">
+    <img src="./assets/gif4.gif" alt="Banner" width="400" height="400"/>
+    <img src="./assets/gif5.gif" width="400" height="400"/>
+</div>
+<div style="height: 20px;"></div>
 
-✨ THERE IS A WHOLE WORLD TO EXPLORE IN THIS SETUP.SH ✨
+<h1 align="center" style="font-size: 24px;">😻 THERE IS A WHOLE WORLD TO EXPLORE IN THIS SETUP.SH😻</h1>
 
-<img src="./assets/gif4.gif" />
 
 ## Downloads Included in the Script
 
@@ -261,34 +291,54 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [control-lora-recolor-rank256.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors)
 - [control-lora-sketch-rank256.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors)
 
-## 🇺🇼🇺 Build Your Own Loadout 🇺🇼🇺
+<blockquote style="border: 2px solid #ff00ff; background: linear-gradient(to right, #ff00ff, #000000, #0000ff); padding: 14px; margin: 50px;">
+<p style="font-size: 12px; color: #ffffff; text-align: center; font-style: italic;">"Remember, in the chaotic dance of life, even the mightiest Git Waifu Boobahub Gigaboob Node Demon may find itself tangled in the threads of destiny, whispering 'UWU' as it embraces its kawaii fate."<br>- Hiroshi Sugawara, the legendary Otaku Sage</p>
+</blockquote>
+
+
+
+<h1 align="center" style="font-size: 40px; color: #ff00ff;"> 🇺🇼🇺 Build Your Own Loadout 🇺🇼🇺</h1>
 
 <img src="https://i.imgur.com/yKwYEqU.png" alt="Banner" width="800" height="300"/>
 
-The setup.sh is easy to modify. Add or remove a '#' from any line to add or remove it in the setup process. A big list of checkpoints at the bottom of setup.sh, just remove the # to include before running the script
+<p style="font-size: 21px; color: #00ff00; text-align: center;">The setup.sh is easy to modify. Add or remove a '#' from any line to add or remove it in the setup process. A big list of checkpoints are included at the bottom of setup.sh, just remove the # to include it before running the script</p>
 
-<img src="./assets/gif2.gif" />
+<img src="./assets/gif2.gif" alt="Funny GIF" style="display: block; margin: 0 auto; width: 100%;">
 
-### LIST OF AVAILABLE DOWNLOADS NOT INCLUDED BY DEFAULT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional Downloads</title>
+</head>
+<body>
+<div style="height: 20px;"></div>
+<h1 style="text-align: center; font-size: 25px;">LIST OF AVAILABLE DOWNLOADS NOT INCLUDED BY DEFAULT</h1>
 
 <!-- Optional Downloads Not Included by Default -->
+<ul>
+    <li><a href="https://civitai.com/api/download/models/115754">ZavyComic.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/351306">DreamShaperXLv21Turbo.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/303526?type=Model&format=SafeTensor&size=full&fp=fp16">aamXLAnimeMix_v10.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/46846?type=Model&format=SafeTensor&size=full&fp=fp32">revAnimated_v122EOL.safetensors</a></li>
+    <li><a href="https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true">Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors</a></li>
+    <li><a href="https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V4.1_FP32.safetensors?download=true">CyberRealistic_V4.1_FP32.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/261539">analogMadness_v70.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16">dreamshaper_8.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=full&fp=fp16">realisticVisionV60B1_v51VAE.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/17233">abyssorangemix3AOM3_aom3a1b.safetensors</a></li>
+    <li><a href="https://civitai.com/api/download/models/223670?type=Model&format=SafeTensor&size=pruned&fp=fp16">epicphotogasm_lastUnicorn.safetensors</a></li>
+    <li><a href="https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors">sd_xl_refiner_1.0.safetensors</a></li>
+    <li><a href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors">sd_xl_base_1.0.safetensors</a></li>
+    <li><a href="https://github.com/kijai/ComfyUI-DiffusersStableCascade.git">ComfyUI-DiffusersStableCascade</a></li>
+</ul>
 
-- [ZavyComic.safetensors](https://civitai.com/api/download/models/115754)
-- [DreamShaperXLv21Turbo.safetensors](https://civitai.com/api/download/models/351306)
-- [aamXLAnimeMix_v10.safetensors](https://civitai.com/api/download/models/303526?type=Model&format=SafeTensor&size=full&fp=fp16)
-- [revAnimated_v122EOL.safetensors](https://civitai.com/api/download/models/46846?type=Model&format=SafeTensor&size=full&fp=fp32)
-- [Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors](https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true)
-- [CyberRealistic_V4.1_FP32.safetensors](https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V4.1_FP32.safetensors?download=true)
-- [analogMadness_v70.safetensors](https://civitai.com/api/download/models/261539)
-- [dreamshaper_8.safetensors](https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16)
-- [realisticVisionV60B1_v51VAE.safetensors](https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=full&fp=fp16)
-- [abyssorangemix3AOM3_aom3a1b.safetensors](https://civitai.com/api/download/models/17233)
-- [epicphotogasm_lastUnicorn.safetensors](https://civitai.com/api/download/models/223670?type=Model&format=SafeTensor&size=pruned&fp=fp16)
-- [sd_xl_refiner_1.0.safetensors](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors)
-- [sd_xl_base_1.0.safetensors](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)
+<h2 style="text-align: center; font-size: 24px; color: #ff0000;">HAVE FUN AND DON'T HURT YOURSELF</h2>
 
-- [ComfyUI-DiffusersStableCascade](https://github.com/kijai/ComfyUI-DiffusersStableCascade.git)
+<img src="./assets/gif1.gif" alt="Funny GIF" style="display: block; margin: 0 auto; width: 100%;">
+    
+</body>
+</html>
 
-## HAVE FUN AND DONT HURT YOURSELF
-
-<img src="./assets/gif1.gif" />
