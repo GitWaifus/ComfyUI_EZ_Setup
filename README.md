@@ -7,8 +7,8 @@ AKA THE NODE WHISPERER 🤫
 FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆  
 UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
 
-<img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="275" height="440"/> 
-<img src="https://media.giphy.com/media/2ppA7PktakC1V0AhvB/giphy-downsized.gif" alt="Banner" width="444" height="440"/>
+<img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="245" height="440"/> 
+<img src="https://media.giphy.com/media/2ppA7PktakC1V0AhvB/giphy-downsized-large.gif" alt="Banner" width="444" height="440"/>
 
 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄
 
@@ -40,7 +40,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 ✨ THERE IS A WHOLE WORLD TO EXPLORE IN THIS SETUP.SH ✨
 
-<img src="https://media.giphy.com/media/O6mytDQenfa0uYnXBL/giphy-downsized.gif" alt="Animated GIF" />
+<img src="https://media.giphy.com/media/O6mytDQenfa0uYnXBL/giphy-downsized-large.gif" alt="Animated GIF" />
 
 ## Downloads Included in the Script
 
@@ -125,7 +125,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 ## 😻 🅄🅆🅄 YOU LOOK TIRED ANONKUN 🅄🅆🅄 😻
 
-<div style="width: 900px; height: 800px; background-image: url('https://imgur.com/65ZoSuv.jpg'); background-position: center -420; background-size: cover;"></div>
+<div style="width: 900px; height: 800px; background-image: url('https://imgur.com/65ZoSuv.png'); background-position: center -420; background-size: cover;"></div>
 
 ## 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES
 
@@ -282,4 +282,4 @@ The setup.sh is easy to modify. Add or remove a '#' from any line to add or remo
 
 ## HAVE FUN AND DONT HURT YOURSELF
 
-<img src="https://media.giphy.com/media/viHkbZiHkMzTWzIarO/giphy-downsized.gif" />
+<img src="https://media.giphy.com/media/viHkbZiHkMzTWzIarO/giphy-downsized-large.gif" />
