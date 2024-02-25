@@ -8,8 +8,8 @@ FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆
 UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
 
 <div style="display: flex; justify-content: start; align-items: center;">
-    <img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="245" height="440"/>
-    <img src="./assets/gif3.gif" width="400" height="440"/>
+    <img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="265" height="440"/>
+    <img src="./assets/gif6.gif" width="400" height="440"/>
 </div>
 
 
@@ -33,7 +33,7 @@ chmod +x comfy.sh
 ./comfy.sh
 ```
 
-### STEP 3: ONCE SETUP.SH COMPLETES (ETA 45 MIN)
+### STEP 3: after setup.sh completes (40 minutes)
 
 ```bash
 cd /workspace/ComfyUI
@@ -41,9 +41,11 @@ source /workspace/ComfyUI/venv/bin/activate
 python3 main.py --listen 0.0.0.0 --port 3000
 ```
 
+<img src="./assets/gif5.gif" width="444" height="440"/>
+
 ✨ THERE IS A WHOLE WORLD TO EXPLORE IN THIS SETUP.SH ✨
 
-<img src="./assets/gif4.gif" width="444" height="440"/>
+<img src="./assets/gif4.gif" />
 
 ## Downloads Included in the Script
 
@@ -95,6 +97,8 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [ip-adapter-plus_sd15.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true)
 - [ip-adapter-plus-face_sd15.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors?download=true)
 - [ip-adapter-full-face_sd15.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors?download=true)
+
+    
 
 ### VAE:
 
@@ -194,6 +198,8 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [RealESRGAN_x4plus.pth](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth)
 - [RealESRGAN_x2.pth](https://huggingface.co/sberbank-ai/Real-ESRGAN/resolve/main/RealESRGAN_x2.pth)
 - [RealESRGAN_x4.pth](https://huggingface.co/sberbank-ai/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth)
+
+  <img src="./assets/gif3.gif"/>
 
 ## AnimateDiff Models
 
