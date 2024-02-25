@@ -7,8 +7,11 @@ AKA THE NODE WHISPERER 🤫
 FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆  
 UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
 
-<img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="245" height="440"/> 
-<img src="./assets/gif3.gif" width="400" height="440"/>
+<div style="display: flex; justify-content: start; align-items: center;">
+    <img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="245" height="440"/>
+    <img src="./assets/gif3.gif" width="400" height="440"/>
+</div>
+
 
 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄
 
