@@ -2,33 +2,28 @@
 
 AKA THE ONE CLICK WONDER ✨  
 AKA THE NODE DEMON 😈  
-AKA THE NODE WHISPERER 🤫  
+AKA THE NODE WHISPERER 🤫
 
 FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆  
-UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️  
+UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
 
+<img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="275" height="440"/> 
+<img src="https://media.giphy.com/media/2ppA7PktakC1V0AhvB/giphy-downsized.gif" alt="Banner" width="444" height="440"/>
 
-<img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="244" height="440"/> 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDY0MWVhbmFhMjFsaXZkNzhkMDY2MmJ4NTJiY3Zkcm5yb2V0NXZldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ppA7PktakC1V0AhvB/giphy-downsized-large.gif/giphy-downsized-large.gif" alt="Animated GIF" width="440" height="440"/>
-
-
-
-
-
-
-
-EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 
+EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄
 
 ## 😻 UWU ITS THE INSTALLATION GUIDE UWU 😻
 
 DEFAULT INSTALLATION GUIDE - 90GB DOWNLOAD (GIGABOOBS)
 
 ### STEP 1:
+
 ```bash
 git clone https://github.com/GitWaifus/ComfyUI_EZ_Setup.git
 ```
 
 ### STEP 2:
+
 ```bash
 cd ComfyUI_EZ_Setup
 chmod +x comfy.sh
@@ -36,6 +31,7 @@ chmod +x comfy.sh
 ```
 
 ### STEP 3: ONCE SETUP.SH COMPLETES (ETA 45 MIN)
+
 ```bash
 cd /workspace/ComfyUI
 source /workspace/ComfyUI/venv/bin/activate
@@ -44,11 +40,12 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 ✨ THERE IS A WHOLE WORLD TO EXPLORE IN THIS SETUP.SH ✨
 
-<img src="https://media.giphy.com/media/O6mytDQenfa0uYnXBL/giphy.gif/giphy-downsized-large.gif" alt="Animated GIF" />
+<img src="https://media.giphy.com/media/O6mytDQenfa0uYnXBL/giphy-downsized.gif" alt="Animated GIF" />
 
 ## Downloads Included in the Script
 
 ### Custom Nodes and Repositories:
+
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager.git)
 - [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui.git)
 - [ComfyUI_Comfyroll_CustomNodes](https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git)
@@ -77,7 +74,9 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [ComfyUI-Video-Matting](https://github.com/Fannovel16/ComfyUI-Video-Matting.git)
 
 - [comfy_controlnet_preprocessors](https://github.com/Fannovel16/comfy_controlnet_preprocessors)
+
 ### Checkpoints:
+
 - [epicrealism_naturalSinRC1VAE.safetensors](https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16)
 - [realisticVisionV60B1_v51VAE.safetensors](https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=full&fp=fp16)
 - [absolutereality_v181INPAINTING.safetensors](https://civitai.com/api/download/models/134084)
@@ -88,8 +87,8 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [stage_b.safetensors](https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_b.safetensors?download=true)
 - [stage_c.safetensors](https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_c.safetensors?download=true)
 
-
 ### IP Adapter Models:
+
 - [ip-adapter-plus_sd15.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true)
 - [ip-adapter-plus-face_sd15.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors?download=true)
 - [ip-adapter-full-face_sd15.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors?download=true)
@@ -106,8 +105,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [orangemix.vae.pt](https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/VAEs/orangemix.vae.pt)
 - [kl-f8-anime2.ckpt](https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt)
 
-
-### Embeddings: 
+### Embeddings:
 
 - [bad_prompt_version2-neg.pt](https://civitai.com/api/download/models/60095?type=Negative&format=Other)
 - [badhandv4.pt](https://civitai.com/api/download/models/20068)
@@ -125,19 +123,14 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [BadNegAnatomyV1neg.pt](https://civitai.com/api/download/models/64063)
 - [JuggernautNegativeneg.pt](https://civitai.com/api/download/models/86553?type=Negative&format=Other)
 
-
-
 ## 😻 🅄🅆🅄 YOU LOOK TIRED ANONKUN 🅄🅆🅄 😻
 
-<div style="width: 900px; height: 800px; background-image: url('https://i.imgur.com/65ZoSuv.png'); background-position: center -420; background-size: cover;"></div>
+<div style="width: 900px; height: 800px; background-image: url('https://imgur.com/65ZoSuv.jpg'); background-position: center -420; background-size: cover;"></div>
 
-## 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 
-
-
-
-
+## 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES
 
 ### Loras:
+
 - [sd_xl_offset_example-lora_1.0.safetensors](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors)
 - [aesthetic_anime_v1s.safetensors](https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor)
 - [more_details.safetensors](https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor)
@@ -189,8 +182,8 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [xsarchitectural-7.safetensors](https://civitai.com/api/download/models/30384)
 - [sd15_lora_beta.safetensors](https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/sd15_lora_beta.safetensors?download=true)
 
-
 ### Upscale Models:
+
 - [4x-UltraSharp.pth](https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth)
 - [4x_NMKD-Siax_200k.pth](https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth)
 - [4x_Nickelback_70000G.pth](https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_Nickelback_70000G.pth)
@@ -210,7 +203,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [mm_sd_v15_v2.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt?download=true)
 - [sd15_t2v_beta.ckpt](https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/sd15_t2v_beta.ckpt?download=true)
 
-### Motion Loras: 
+### Motion Loras:
 
 - [v2_lora_PanLeft.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanLeft.ckpt?download=true)
 - [v2_lora_PanRight.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt?download=true)
@@ -221,20 +214,22 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [v2_lora_ZoomIn.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt?download=true)
 - [v2_lora_ZoomOut.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomOut.ckpt?download=true)
 
-
-
 ### Annotator Models:
+
 - [ControlNetHED.pth](https://huggingface.co/lllyasviel/Annotators/resolve/main/ControlNetHED.pth)
 - [res101.pth](https://huggingface.co/lllyasviel/Annotators/resolve/main/res101.pth)
 
 ### CLIP Vision Models:
+
 - [clip_vision_g.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors)
 - [IPAdapter_Image_Encoder_SD15_V1.safetensors](https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors)
 
 ### CLIP Model:
+
 - [model.safetensors](https://huggingface.co/stabilityai/stable-cascade/resolve/main/text_encoder/model.safetensors?download=true)
 
 ## ControlNet
+
 - [control_v11e_sd15_ip2p_fp16.safetensors](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors)
 - [control_v11e_sd15_shuffle_fp16.safetensors](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors)
 - [control_v11p_sd15_canny_fp16.safetensors](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors)
@@ -251,11 +246,11 @@ python3 main.py --listen 0.0.0.0 --port 3000
 - [control_v11u_sd15_tile_fp16.safetensors](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors)
 
 ## ControlNet SDXL
+
 - [control-lora-canny-rank256.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors)
 - [control-lora-depth-rank256.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors)
 - [control-lora-recolor-rank256.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors)
 - [control-lora-sketch-rank256.safetensors](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors)
-
 
 ## 🇺🇼🇺 Build Your Own Loadout 🇺🇼🇺
 
@@ -263,7 +258,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 The setup.sh is easy to modify. Add or remove a '#' from any line to add or remove it in the setup process. A big list of checkpoints at the bottom of setup.sh, just remove the # to include before running the script
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGc0NXA1emFneDdkZXQ2NDJhdDd5Y2ZtZXRnNXg0eG9jaTJkY3A5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LTYvrxUu42KtG16HVA/source.gif" alt="Banner" width="400" height="400"/>
+<img src="https://media.giphy.com/media/LTYvrxUu42KtG16HVA/giphy-downsized.gif" alt="Banner" width="400" height="400"/>
 
 ### LIST OF AVAILABLE DOWNLOADS NOT INCLUDED BY DEFAULT
 
@@ -285,7 +280,6 @@ The setup.sh is easy to modify. Add or remove a '#' from any line to add or remo
 
 - [ComfyUI-DiffusersStableCascade](https://github.com/kijai/ComfyUI-DiffusersStableCascade.git)
 
-## HAVE FUN AND DONT HURT YOURSELF 
+## HAVE FUN AND DONT HURT YOURSELF
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2N1bjZ1Y24xOXlqMjlpeHIza202Y3lmcjB5ZTY1N2h1c2dnMG55ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/viHkbZiHkMzTWzIarO/giphy-downsized-large.gif" alt="Animated GIF" />
-
+<img src="https://media.giphy.com/media/viHkbZiHkMzTWzIarO/giphy-downsized.gif" />
