@@ -8,7 +8,7 @@ FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆
 UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
 
 <img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="245" height="440"/> 
-<img src="https://media.giphy.com/media/2ppA7PktakC1V0AhvB/giphy-downsized-large.gif" alt="Banner" width="444" height="440"/>
+<img src="./assets/gif3.gif" width="444" height="440"/>
 
 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄
 
@@ -40,7 +40,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 ✨ THERE IS A WHOLE WORLD TO EXPLORE IN THIS SETUP.SH ✨
 
-<img src="https://media.giphy.com/media/O6mytDQenfa0uYnXBL/giphy-downsized-large.gif" alt="Animated GIF" />
+<img src="./assets/gif4.gif" width="444" height="440"/>
 
 ## Downloads Included in the Script
 
@@ -125,7 +125,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 ## 😻 🅄🅆🅄 YOU LOOK TIRED ANONKUN 🅄🅆🅄 😻
 
-<div style="width: 900px; height: 800px; background-image: url('https://imgur.com/65ZoSuv.png'); background-position: center -420; background-size: cover;"></div>
+<img src="./assets/pic2.png" width="7000" height="600"/>
 
 ## 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES 🅄🅆🅄 NODES
 
@@ -258,7 +258,7 @@ python3 main.py --listen 0.0.0.0 --port 3000
 
 The setup.sh is easy to modify. Add or remove a '#' from any line to add or remove it in the setup process. A big list of checkpoints at the bottom of setup.sh, just remove the # to include before running the script
 
-<img src="https://media.giphy.com/media/LTYvrxUu42KtG16HVA/giphy-downsized.gif" alt="Banner" width="400" height="400"/>
+<img src="./assets/gif2.gif" />
 
 ### LIST OF AVAILABLE DOWNLOADS NOT INCLUDED BY DEFAULT
 
@@ -282,4 +282,4 @@ The setup.sh is easy to modify. Add or remove a '#' from any line to add or remo
 
 ## HAVE FUN AND DONT HURT YOURSELF
 
-<img src="https://media.giphy.com/media/viHkbZiHkMzTWzIarO/giphy-downsized-large.gif" />
+<img src="./assets/gif1.gif" />
