@@ -8,7 +8,7 @@ FASTEST BOOBA DEPLOYER IN NORTH AMERICA 🏆
 UNBELIEVABLE TASTE AND CURATION OF NODES 🌪️
 
 <img src="https://i.imgur.com/CrRCByW.png" alt="Banner" width="245" height="440"/> 
-<img src="./assets/gif3.gif" width="444" height="440"/>
+<img src="./assets/gif3.gif" width="400" height="440"/>
 
 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄 EAT SLEEP NODE 🔄
 
