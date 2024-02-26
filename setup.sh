@@ -38,7 +38,13 @@ git clone https://github.com/AIrjen/OneButtonPrompt /workspace/ComfyUI/custom_no
 git clone https://github.com/kijai/comfyui-svd-temporal-controlnet.git /workspace/ComfyUI/custom_nodes/ComfyUI-SVD-Temporal-ControlNet
 git clone https://github.com/Fannovel16/ComfyUI-Video-Matting.git /workspace/ComfyUI/custom_nodes/ComfyUI-Video-Matting
 git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git /workspace/ComfyUI/custom_nodes/ComfyUI_IPAdapter_Plus
-
+git clone https://github.com/Gourieff/comfyui-reactor-node.git /workspace/ComfyUI/custom_nodes/comfyui-reactor-node
+git clone https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git /workspace/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+git clone https://github.com/chrisgoringe/cg-use-everywhere.git /workspace/ComfyUI/custom_nodes/cg-use-everywhere
+git clone https://github.com/shiimizu/ComfyUI_smZNodes.git /workspace/ComfyUI/custom_nodes/ComfyUI_smZNodes
+git clone https://github.com/ltdrdata/ComfyUI-Inspire-Pack.git /workspace/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+git clone https://github.com/ssitu/ComfyUI_restart_sampling.git /workspace/ComfyUI/custom_nodes/ComfyUI_restart_sampling
+git clone https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM.git /workspace/ComfyUI/custom_nodes/ComfyUI-YoloWorld-EfficientSAM
 
 # Install requirements
 pip install -r /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/requirements.txt
@@ -53,12 +59,22 @@ cd /workspace/ComfyUI/custom_nodes/ComfyUI_essentials && pip install -r requirem
 cd /workspace/ComfyUI/custom_nodes/ComfyUI-Crystools && pip install -r requirements.txt
 cd /workspace/ComfyUI/custom_nodes/ComfyUI-SVD-Temporal-ControlNet && pip install -r requirements.txt
 cd /workspace/ComfyUI/custom_nodes/ComfyUI-Video-Matting && pip install -r requirements.txt
+cd /workspace/ComfyUI/custom_nodes/comfyui-reactor-node && pip install -r requirements.txt
+cd /workspace/ComfyUI/custom_nodes/comfyui-reactor-node python install.py
+cd /workspace/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack && pip install -r requirements.txt
+cd /workspace/ComfyUI/custom_nodes/ComfyUI-YoloWorld-EfficientSAM && pip install -r requirements.txt
 
 # Download model files to checkpoints directory
 mkdir -p /workspace/ComfyUI/models/checkpoints
 wget -nc -O /workspace/ComfyUI/models/checkpoints/epicrealism_naturalSinRC1VAE.safetensors 'https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16'
 wget -nc -O /workspace/ComfyUI/models/checkpoints/realisticVisionV60B1_v51VAE.safetensors 'https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=full&fp=fp16'
 wget -nc -O /workspace/ComfyUI/models/checkpoints/absolutereality_v181INPAINTING.safetensors 'https://civitai.com/api/download/models/134084'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/disneyPixarCartoon_v10.safetensors 'https://civitai.com/api/download/models/69832'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/stable_cascade_stage_b.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/stable_cascade_stage_c.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/sd_xl_base_1.0_0.9vae.safetensors 'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors?download=true'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/DreamShaperXLv21Turbo.safetensors 'https://civitai.com/api/download/models/351306'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/dreamshaper_8.safetensors 'https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16'
 
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/
 
@@ -70,8 +86,11 @@ wget -nc -O /workspace/ComfyUI/models/ipadapter/ip-adapter-full-face_sd15.safete
 
 
 # Download model files to UNET folder
-wget -nc -O /workspace/ComfyUI/models/unet/stage_b.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_b.safetensors?download=true'
-wget -nc -O /workspace/ComfyUI/models/unet/stage_c.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_c.safetensors?download=true'
+
+mkdir -p /workspace/ComfyUI/models/unet
+wget -nc -O /workspace/ComfyUI/models/sdxl_lightning_2step_unet.safetensors 'https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_2step_unet.safetensors?download=true'
+# wget -nc -O /workspace/ComfyUI/models/unet/stage_b.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_b.safetensors?download=true'
+# wget -nc -O /workspace/ComfyUI/models/unet/stage_c.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_c.safetensors?download=true'
 
 
 # Download model files to loras directory
@@ -223,6 +242,7 @@ wget -nc -O /workspace/ComfyUI/models/vae/anythingKlF8Anime2VaeFtMse840000_klF8A
 wget -nc -O /workspace/ComfyUI/models/vae/klF8Anime2VAE_klF8Anime2VAE.safetensors 'https://civitai.com/api/download/models/28569?type=Model&format=SafeTensor'
 wget -nc -O /workspace/ComfyUI/models/vae/difconsistencyRAWVAE_v10.safetensors 'https://civitai.com/api/download/models/94036?type=Model&format=PickleTensor'
 wget -nc -O /workspace/ComfyUI/models/vae/stage_a.safetensors 'https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors?download=true'
+wget -nc -O /workspace/ComfyUI/models/vae/previewer.safetensors 'https://huggingface.co/stabilityai/stable-cascade/blob/main/previewer.safetensors'
 wget -c https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/VAEs/orangemix.vae.pt -P ./models/vae/
 wget -c https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt -P ./models/vae/
 
@@ -250,18 +270,18 @@ wget -nc -O /workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_l
 wget -nc -O /workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_lora/v2_lora_ZoomIn.ckpt 'https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt?download=true'
 wget -nc -O /workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_lora/v2_lora_ZoomOut.ckpt 'https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomOut.ckpt?download=true'
 
+# mkdir -p /workspace/ComfyUI/models/insightface
+# wget -nc -O /workspace/ComfyUI/models/insightface/inswapper_128.onx 'https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx'
 
-## ------- STUFF NOT INCLUDED BY DEFAULT BECAUSE REASONS  ------------------- ##
+
+## ------- STUFF NOT INCLUDED BY DEFAULT BECAUSE REASONS  ------------------- 
 
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/ZavyComic.safetensors 'https://civitai.com/api/download/models/115754'
-# wget -nc -O /workspace/ComfyUI/models/checkpoints/DreamShaperXLv21Turbo.safetensors 'https://civitai.com/api/download/models/351306'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/aamXLAnimeMix_v10.safetensors 'https://civitai.com/api/download/models/303526?type=Model&format=SafeTensor&size=full&fp=fp16'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/revAnimated_v122EOL.safetensors 'https://civitai.com/api/download/models/46846?type=Model&format=SafeTensor&size=full&fp=fp32'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors 'https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/CyberRealistic_V4.1_FP32.safetensors 'https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V4.1_FP32.safetensors?download=true'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/analogMadness_v70.safetensors 'https://civitai.com/api/download/models/261539'
-# wget -nc -O /workspace/ComfyUI/models/checkpoints/dreamshaper_8.safetensors 'https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16'
-# wget -nc -O /workspace/ComfyUI/models/checkpoints/realisticVisionV60B1_v51VAE.safetensors 'https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=full&fp=fp16'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/abyssorangemix3AOM3_aom3a1b.safetensors 'https://civitai.com/api/download/models/17233'
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/epicphotogasm_lastUnicorn.safetensors 'https://civitai.com/api/download/models/223670?type=Model&format=SafeTensor&size=pruned&fp=fp16'
 # wget -c https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors -P ./models/checkpoints/
@@ -269,6 +289,7 @@ wget -nc -O /workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_l
 
 # git clone https://github.com/kijai/ComfyUI-DiffusersStableCascade.git /workspace/ComfyUI/custom_nodes/ComfyUI-DiffusersStableCascade
 # cd /workspace/ComfyUI/custom_nodes/ComfyUI-DiffusersStableCascade && pip install -r requirements.txt
+
 # wget -nc -O /workspace/ComfyUI/custom_nodes/ 'https://civitai.com/api/download/models/351034'
 
 # wget -nc -O /workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models/

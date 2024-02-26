@@ -5,6 +5,45 @@ body {
     color: #333; /* Dark text for readability */
     text-align: center; /* Center-aligns text for consistency */
 }
+.banner-background {
+    background-image: url('https://i.imgur.com/oBCgHPx.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Light text color for readability */
+}
+
+.text-container {
+    text-align: center;
+    background: rgba(255, 192, 203, 0.5); /* Light pink semi-transparent overlay for text contrast */
+    padding: 50px;
+    border-radius: 20px; /* Soft rounded corners for a more delicate look */
+    border: 2px solid #f8a2d4; /* Light pink border for an extra pop */
+}
+
+.main-title {
+    font-size: 3rem; /* Increased font size for emphasis */
+    color: #ff69b4; /* Bright pink for high visibility and theme consistency */
+    text-shadow: 3px 3px 6px #d142f8; /* Purple shadow for a magical, dreamy effect */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Slightly larger for readability */
+    color: #ff69b4; /* Matching the main title for consistency */
+    text-shadow: 2px 2px 5px #fd4de5; /* Lighter pink shadow for a soft, glowing effect */
+    margin-bottom: 15px; /* Added space between subtitles and any following content */
+}
+
+/* Additional styling for enhanced 'uwu' and 'booba-themed' vibes */
+/* Consider adding decorative elements like hearts, sparkles, or anime icons */
+.decorative-element {
+    font-size: 2rem; /* Adjust size as needed */
+    color: #f8a2d4; /* Soft pink for decorative text or icons */
+    text-shadow: 1px 1px 4px #ff69b4; /* Adds depth and a glowing effect */
+}
 
 /* Media container styling for layout flexibility */
 .media-container {
@@ -295,7 +334,7 @@ img, .responsive-image, .responsive-gif, .banner-image, .funny-gif {
     margin: 0 auto; /* Centers the image horizontally within its container */
 }
 .image-container {
-    width: 60%; /* Adjust based on layout needs */
+    width: 70%; /* Adjust based on layout needs */
     margin: 0 auto; /* Centers the container */
 }
 
@@ -321,4 +360,69 @@ img, .responsive-image, .responsive-gif, .banner-image, .funny-gif {
     box-shadow: 0 4px 6px rgba(255, 182, 193, 0.5); /* Soft shadow for depth */
     max-width: 80%; /* Controlling the width for better readability */
     text-align: center; /* Center-align text for emphasis */
+}
+
+h2 {
+    font-family: 'Kalam', cursive; /* Keeps the playful, handwritten style */
+    color: #FF69B4; /* Soft pink for a sweet, kawaii vibe */
+    background-color: rgba(255, 192, 203, 0.3); /* Light pink semi-transparent background */
+    padding: 10px 20px; /* Padding for a plush look */
+    border-radius: 15px; /* Rounded corners for a soft, friendly appearance */
+    border: 1px dashed #f8a2d4; /* Dashed light pink border for an extra playful touch */
+    box-shadow: 0 4px 6px rgba(255, 105, 180, 0.5); /* Soft pink shadow for depth */
+    display: inline-block; /* Only as wide as its content */
+    margin: 20px auto; /* Centering the element */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for interaction */
+}
+
+h2:hover {
+    transform: scale(1.05); /* Slightly enlarges the h2 on hover */
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* Intensifies the shadow for a popping effect */
+    cursor: pointer; /* Indicates the element is interactive */
+}
+
+#kawaii-footer {
+    background-color: #FFC0EB; /* Soft pink */
+    color: #FFFFFF;
+    text-align: center; /* Centers text horizontally */
+    padding: 20px;
+    font-family: 'Kalam', cursive;
+    border-top: 3px dashed #FF69B4;
+}
+
+.footer-content {
+    max-width: 100%;
+    margin: auto; /* Ensures margin is auto on all sides for horizontal centering */
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers flex items on the cross axis */
+    justify-content: center; /* Centers flex items along the main axis if there's extra space */
+}
+
+.footer-content p {
+    margin: 10px 0;
+    color: #FF69B4; /* Bright pink for text */
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px #FFFFFF;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Ensures social links are centered */
+    padding: 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    filter: drop-shadow(2px 2px 2px #FF69B4); /* Soft shadow for icons */
+}
+
+.social-links a img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
