@@ -1,0 +1,324 @@
+/* Global styles and font settings */
+body {
+    font-family: 'Kalam', cursive; /* Playful font for a fun aesthetic */
+    background-color: #FAF1FF; /* Light pastel background for a soft look */
+    color: #333; /* Dark text for readability */
+    text-align: center; /* Center-aligns text for consistency */
+}
+
+/* Media container styling for layout flexibility */
+.media-container {
+    display: flex;
+    justify-content: center; /* Adjusted to center for consistent alignment */
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual content containers within the media container */
+.left-content, .flipped-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid container for 2x2 GIF layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* Flipping the right-side image horizontally */
+.flipped-image {
+    transform: scaleX(-1);
+}
+
+/* Styling for main and other titles */
+h1.main-title, .guide-title, .world-explore-title, .loadout-title {
+    color: #FF69B4;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px #FFC0CB;
+}
+
+.description {
+    font-family: 'Kalam', cursive; /* Maintains the playful font */
+    color: #FF69B4; /* Soft pink color for a playful, UWU vibe */
+    background-color: #FFF0F5; /* Light pastel background to make the text pop */
+    padding: 20px; /* Adds space around the text for readability */
+    border-radius: 15px; /* Rounds the corners for a soft, friendly look */
+    border: 2px dashed #FFB6C1; /* Dashed border for an extra playful touch */
+    margin: 20px auto; /* Centers the paragraph and adds vertical spacing */
+    max-width: 80%; /* Limits the width for better readability */
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4); /* Soft pink shadow for depth */
+    text-align: center; /* Centers the text for emphasis */
+    line-height: 1.6; /* Increases line spacing for readability */
+    word-spacing: 2px; /* Slightly increases space between words */
+}
+
+.description:hover {
+    transform: scale(1.05); /* Slightly enlarges the description on hover */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* Intensifies the shadow for a popping effect */
+}
+
+.inspirational-quote:hover {
+    transform: scale(1.05); /* Slightly enlarges the description on hover */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* Intensifies the shadow for a popping effect */
+}
+
+.fun-warning:hover {
+    transform: scale(1.05); /* Slightly enlarges the description on hover */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* Intensifies the shadow for a popping effect */
+}
+
+.copy-button:hover {
+    transform: scale(1.05); /* Slightly enlarges the description on hover */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* Intensifies the shadow for a popping effect */
+}
+
+/* Paragraph and subtitle styling for readability and spacing */
+p, .subtitle, .setup-modify-instructions {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 15px auto; /* Adjusted for auto horizontal margins and centered text */
+    max-width: 600px; /* Ensures text blocks are not too wide */
+}
+
+.scrolling-banner {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #FFF0F5;
+    color: #FF69B4;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.scroll-text {
+    display: inline-block;
+    /* No need for initial padding */
+    animation: scroll-left 40s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+/* Ensuring images are responsive */
+img, .responsive-image, .responsive-gif, .banner-image, .funny-gif {
+    max-width: 100%;
+    height: auto;
+}
+
+.inspirational-quote {
+    border-color: #FF69B4; /* Pink border for quotes */
+    color: #FF69B4; /* Pink text color for quotes */
+    font-style: normal; /* Override default italic style */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 20px auto; /* Center the blockquote and add vertical spacing */
+    max-width: 70%; /* Increase max-width to allow more text width */
+    border-radius: 5px; /* Optional: Adds rounded corners to the blockquote */
+    background-color: #FFF0F5; /* Optional: Light background color for the quote */
+    text-align: center; /* Optional: Center-align the text */
+}
+
+
+.downloads-section .downloads-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust based on your preference for 3x3 grid */
+    gap: 10px;
+    padding: 0;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.downloads-section .downloads-list li {
+    background: #FFF0F5; /* Background color for list items */
+    padding: 10px; /* Padding inside list items */
+    border-radius: 5px; /* Rounded corners for list items */
+}
+
+.downloads-section .downloads-list li a {
+    color: #FF69B4; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Ensure the link fills the entire list item */
+}
+
+
+.downloads-list li a:hover {
+    background-color: #FFC0CB; /* Changes the background color on hover */
+}
+
+
+/* Fun warning message styling for standout emphasis */
+.fun-warning {
+    color: #FF4500;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #FFD700;
+}
+
+/* Installation guide, steps, and code container styling for readability */
+.installation-guide {
+    width: 80%; /* Adjusted for better layout control */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.installation-step {
+    margin-bottom: 20px;
+}
+
+.code-container {
+    position: relative;
+    max-width: 60%;
+    border: 2px solid #FFB6C1;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F0E6EF;
+    color: #333;
+    overflow-x: auto;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.code-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.4);
+}
+
+.copy-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.copy-text {
+    margin-right: 10px;
+    color: #FF69B4;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.copy-button {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: url('https://gcdn.thunderstore.io/live/repository/icons/aazza94-uWu_HoardingBug_Mod-1.0.0.png.256x256_q95.png') no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.copy-button:hover {
+    transform: scale(1.2);
+    background-color: #FFC0CB;
+}
+
+.copy-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.copy-button:hover + .copy-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .media-container, .downloads-section, .installation-guide {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        width: 90%;
+    }
+
+    h1, p {
+        font-size: smaller;
+    }
+}
+
+.download-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a responsive grid */
+    gap: 10px; /* Spacing between grid items */
+    padding: 20px; /* Padding around the grid container */
+    margin-bottom: 20px; /* Space between each download grid container */
+}
+
+.download-grid-container a {
+    display: block; /* Make links block-level for better control */
+    background: #FFF0F5; /* Light pink background for links, matching theme */
+    color: #FF69B4; /* Pink color for text */
+    padding: 10px; /* Padding inside each link for spacing */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    text-align: center; /* Center text within each link */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.download-grid-container a:hover {
+    background-color: #FFC0CB; /* Lighter pink on hover for visual feedback */
+}
+
+.banner-image {
+    max-width: 500px; /* Maximum width of the image */
+    height: auto; /* Scales the height automatically to maintain aspect ratio */
+    display: block; /* Aligns the image nicely in the container */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+}
+.image-container {
+    width: 60%; /* Adjust based on layout needs */
+    margin: 0 auto; /* Centers the container */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        width: 95%; /* More width on smaller screens */
+    }
+}
+
+.setup-modify-instructions {
+    font-family: 'Kalam', cursive; /* Or any playful font you prefer */
+    color: #FF69B4; /* Soft pink for a cute vibe */
+    background-color: #FFF0F5; /* Light pastel background */
+    border: 2px dashed #FFB6C1; /* Dashed border for a whimsical touch */
+    padding: 20px; /* Padding for a plush look */
+    border-radius: 15px; /* Rounded corners for a soft outline */
+    margin: 20px auto; /* Centering and adding some space around the paragraph */
+    box-shadow: 0 4px 6px rgba(255, 182, 193, 0.5); /* Soft shadow for depth */
+    max-width: 80%; /* Controlling the width for better readability */
+    text-align: center; /* Center-align text for emphasis */
+}
