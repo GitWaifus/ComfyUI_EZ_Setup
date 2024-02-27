@@ -122,7 +122,7 @@ h1.main-title, .guide-title, .world-explore-title, .loadout-title {
 .copy-button:hover {
     transform: scale(1.05); /* Slightly enlarges the description on hover */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* Intensifies the shadow for a popping effect */
+    box-shadow: 0 6px 12px hwb(330 41% 0%); /* Text color for links */
 }
 
 /* Paragraph and subtitle styling for readability and spacing */
@@ -183,10 +183,12 @@ img, .responsive-image, .responsive-gif, .banner-image, .funny-gif {
 
 .downloads-section .downloads-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust based on your preference for 3x3 grid */
+    grid-template-columns: repeat(2, 1fr); /* Adjust based on your preference for 3x3 grid */
     gap: 10px;
     padding: 0;
     list-style-type: none; /* Remove default list styling */
+    max-width: 1100px; /* or whatever maximum width you prefer */
+    margin: 0 auto; /* Centers the section in the page */
 }
 
 .downloads-section .downloads-list li {
@@ -196,14 +198,27 @@ img, .responsive-image, .responsive-gif, .banner-image, .funny-gif {
 }
 
 .downloads-section .downloads-list li a {
-    color: #FF69B4; /* Text color for links */
+    color: hwb(330 41% 0%); /* Text color for links */
     text-decoration: none; /* Remove underline from links */
     display: block; /* Ensure the link fills the entire list item */
 }
 
+.downloads-list li {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for hover effect */
+}
 
+.downloads-list li:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
 .downloads-list li a:hover {
     background-color: #FFC0CB; /* Changes the background color on hover */
+}
+.downloads-list li::before {
+    content: "🌸"; /* Example: Sakura flower emoji */
+    display: inline-block;
+    margin-right: 10px;
 }
 
 
@@ -225,13 +240,14 @@ img, .responsive-image, .responsive-gif, .banner-image, .funny-gif {
     margin-bottom: 20px;
 }
 
+
 .code-container {
     position: relative;
     max-width: 60%;
     border: 2px solid #FFB6C1;
     border-radius: 10px;
     padding: 20px;
-    background-color: #F0E6EF;
+    background-color: hwb(305 80% 2%); /* Text color for links */
     color: #333;
     overflow-x: auto;
     margin: 20px auto;

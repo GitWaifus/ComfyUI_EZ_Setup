@@ -75,6 +75,7 @@ wget -nc -O /workspace/ComfyUI/models/checkpoints/stable_cascade_stage_c.safeten
 wget -nc -O /workspace/ComfyUI/models/checkpoints/sd_xl_base_1.0_0.9vae.safetensors 'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors?download=true'
 wget -nc -O /workspace/ComfyUI/models/checkpoints/DreamShaperXLv21Turbo.safetensors 'https://civitai.com/api/download/models/351306'
 wget -nc -O /workspace/ComfyUI/models/checkpoints/dreamshaper_8.safetensors 'https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16'
+wget -nc -O /workspace/ComfyUI/models/checkpoints/ghostxl_v10BakedVAE.safetensors 'https://civitai.com/api/download/models/350624'
 
 # wget -nc -O /workspace/ComfyUI/models/checkpoints/
 
@@ -145,7 +146,13 @@ wget -nc -O /workspace/ComfyUI/models/loras/RealismControl.safetensors https://c
 wget -nc -O /workspace/ComfyUI/models/loras/pensketch_lora_v2.3.safetensors https://civitai.com/api/download/models/35516
 wget -nc -O /workspace/ComfyUI/models/loras/xsarchitectural-7.safetensors 'https://civitai.com/api/download/models/30384'
 wget -nc -O /workspace/ComfyUI/models/loras/sd15_lora_beta.safetensors 'https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/sd15_lora_beta.safetensors?download=true'
-wget -nc -O /worksapce/ComfyUI/models/loras/Harrlogos_v2.0.safetensors 'https://civitai.com/api/download/models/214296' 
+wget -nc -O /workspace/ComfyUI/models/loras/Harrlogos_v2.0.safetensors 'https://civitai.com/api/download/models/214296' 
+wget -nc -O /workspace/ComfyUI/models/loras/pepe_frog SDXL 'https://civitai.com/api/download/models/149074?type=Model&format=SafeTensor'
+wget -nc -O /workspace/ComfyUI/models/loras/DD-pepe-v2XL.safetensors 'https://civitai.com/api/download/models/181917?type=Model&format=SafeTensor'
+wget -nc -O /workspace/ComfyUI/models/loras/Pepe_lorav1.safetensors 'https://civitai.com/api/download/models/116243'
+wget -nc -O /workspace/ComfyUI/models/loras/D.Trump_v1.safetensors 'https://civitai.com/api/download/models/20275'
+
+#wget -nc -O /workspace/ComfyUI/models/loras/
 
 # wget -nc -O /workspace/ComfyUI/models/loras/
 
@@ -231,6 +238,7 @@ wget -nc -O /workspace/ComfyUI/models/embeddings/verybadimagenegative_v1.3.pt 'h
 wget -nc -O /workspace/ComfyUI/models/embeddings/epiCNegative.pt 'https://civitai.com/api/download/models/95263?type=Model&format=Other'
 wget -nc -O /workspace/ComfyUI/models/embeddings/BadNegAnatomyV1neg.pt 'https://civitai.com/api/download/models/64063'
 wget -nc -O /workspace/ComfyUI/models/embeddings/JuggernautNegativeneg.pt 'https://civitai.com/api/download/models/86553?type=Negative&format=Other'
+wget -nc -O /workspace/ComfyUI/models/embeddings/the_trump.pt 'https://civitai.com/api/download/models/27448'
 
 # Download VAE
 
